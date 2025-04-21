@@ -1,0 +1,18 @@
+import random
+print("Rock papers and scissors")
+users_choice=int(input("what u want to choose?: O for rock, 1 for
+paper, and 2 for scissors"))
+system_choice = random. randint (0. 2)
+print(system_choice)
+if users_choice › system_choice:
+print ("you win")
+elif system_choice › users_choice:
+print("you lose")
+elif users_choice==0 and system_choice==2:
+print("you win")
+elif system_choice==0 and users_choice=2:
+print("you lose")
+elif users_choice== system_choice:
+print("its a draw")
+else:
+print("you have entered wrong number")
