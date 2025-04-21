@@ -1,0 +1,37 @@
+main.py
+1 print("welcome to treasure hunt")
+2
+print("your mission is to find the treasure")
+3
+choice0=input("where do want to go left or rigth?")
+4
+- if choice0== "right":
+5
+print("game over")
+6
+if choice0=="left":
+7
+choice2=input ("you want to swim or wait?")
+8
+if choice2== "swim":
+9
+print("game over")
+10 - if choice2=="wait":
+11
+choice3-input ("which door u want to go")
+12 -
+if choice3== "red":
+13
+print ("gameover")
+14
+elif choice3=="blue":
+15
+print("gameover")
+16
+elif choice3=="yellow":
+17
+print("you win" )
+18
+else:
+19
+print("gameover")
