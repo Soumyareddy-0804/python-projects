@@ -1,0 +1,23 @@
+print("pizza delivery")
+size=input("you want which size pizza? S,M,L: ")
+pepperonie=input("You want pepperonie on your pizza? Y OR N: ")
+cheese=input("ÿou want cheese on your pizza? Y OR N: ")
+bill=0
+if size == "S":
+    bill += 15
+elif size == "M":
+    bill += 20
+elif size == "L":
+    bill += 25
+else:
+    print("you have entered wrong size")
+
+if pepperonie == "Y":
+   if size == "S":
+      bill += 2
+   else:
+      bill += 3
+
+if cheese == "Y":
+    bill += 1
+print(f"THE TOTAL BILL IS: {bill}")
